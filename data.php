@@ -24,7 +24,7 @@
 		 	<td><?php echo $row["nama_100"] ?></td>
 		 	<td><?php echo $row["email_100"] ?></td>
 		 	<td>
-		 		<a href="form edit.php?id_100= <?php echo $row["id_100"] ?>">Edit</a>
+		 		<a href="formEdit.php?id_100= <?php echo $row["id_100"] ?>">Edit</a>
 		 		<a href="delete.php?id_100= <?php echo $row["id_100"] ?>">Delete</a>
 		 	</td>
 		 </tr>
